@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ImageProcessing.exe" version="1.0.0.2" publicKeyToken="eeae6b8c4646c14f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ImageProcessing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ImageProcessing.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ImageProcessing.exe" size="39832">
+      <assemblyIdentity name="ImageProcessing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dbPrFFDG0COjdKXF3EE7YeroLyE0j1mWgYCwYjF/vEY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ImageProcessing.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\glyke" issuerKeyHash="547981ea5a720ce68ab37c4442bd6e61cb4372a6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tq5/DKTm+XsbHyWiWdtoFqNMh0GPK1NR5vCw21PUgoo=</DigestValue></Reference></SignedInfo><SignatureValue>vioXtMcfx0vfvEa0xJUVMOFzOB6SJzE15Izq0acUAZFss2Xr16DM4s5iWAu0QKxg31YLucIpWsJL9nEVXhfQdHLwxpvecXltd6bDuP11+e9qVfcBRX+qskhq23C3OBCiYsddS6ZB6/1ww/zFKKnkwQ6Pcc8bDNA9o+6UHwtoDIc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5RIbZx8QU8xurVERL1ylHkNLfCbvlLqrbFXIBp+VDkngttjNoXvUWNWmEKdKK3cn47YZbIsnP0TOmSIQKtqU9qorb3eyrg7wgoVS1TwRCFbivflHZxC8Vs6IxrCf+3/t5+1NEcdqOjArNj+StSGqK9+Lx8PmfEmKtB+mib/bR60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8a82d453dbb0f0e651532b8f41874ca31668db59a2251f1b7bf9e6a40c7faeb6" Description="" Url=""><as:assemblyIdentity name="ImageProcessing.exe" version="1.0.0.2" publicKeyToken="eeae6b8c4646c14f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\glyke</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RfRcIOGZ9mztxkphld+XLNQC1+LbxT5P9knYHHwYxiY=</DigestValue></Reference></SignedInfo><SignatureValue>rXHJVS3QpAtvC7mtfHNWXe8tdBSLcPoU8kqcD4rkq8QB842cblpnlISoOESqLnrkmR1/c3yL1vAEB0CFXXxVM+E7zQt9Kf1GNvisKBioE2d/mdmIhF10RnmDcPuOTfy2vI+rku8+4B5gwNeYH1f++AYG9k3Nm8AjaBKtlLdStNU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5RIbZx8QU8xurVERL1ylHkNLfCbvlLqrbFXIBp+VDkngttjNoXvUWNWmEKdKK3cn47YZbIsnP0TOmSIQKtqU9qorb3eyrg7wgoVS1TwRCFbivflHZxC8Vs6IxrCf+3/t5+1NEcdqOjArNj+StSGqK9+Lx8PmfEmKtB+mib/bR60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQTdFEchJYwJFBhN4StsopjDANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXABnAGwAeQBrAGUwHhcNMjMxMTI2MDMzMDIyWhcNMjQxMTI1MDkzMDIyWjAdMRswGQYDVQQDHhIATQBTAEkAXABnAGwAeQBrAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOUSG2cfEFPMbq1RES9cpR5DS3wm75S6q2xVyAaflQ5J4LbYzaF71FjVphCnSit3J+O2GWyLJz9EzpkiECralPaqK293sq4O8IKFUtU8EQhW4r35R2cQvFbOiMawn/t/7eftTRHHajowKzY/krUhqivfi8fD5nxJirQfpom/20etAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAo30zGX0LLX8fj6mOsdRtQf5NFBgy71n3PVvPj/M7+584COxg9GnExMhVuxHTaiL3WrRZaeWz4UKp3j51MSqt9kYMBLG90hnPu9ckS8hEqVGTJYv6TK5phid91YOv8OE1WpImab5HcIMM/UMj/l0mi5iLs0lrLt5AAD9ESJeMICw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
